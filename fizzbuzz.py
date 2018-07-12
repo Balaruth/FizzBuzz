@@ -17,7 +17,7 @@ while True:
           print "buzz"
         else:
           print number
-    elif value > 100:
+    elif value > 100 or value < 0:
       print "Please choose a number between 1 and 100!"
     elif value == 0:
       print "Thanks for trying FizzBuzz!"
